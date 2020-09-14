@@ -1,5 +1,4 @@
 import com.google.gson.Gson;
-
 public class User {
 
     private String username;
@@ -14,11 +13,12 @@ public class User {
         this.gender = gender;
     }
 
-    public String toJSON(){
-        Gson json = new Gson();
-        String result = json.toJson(this);
+
+    public String display(){
+        String result = "Hello Dear " + this.username+ "Your age is: "+ this.age;
         return result;
     }
+    public fromJSON(){
 
-
+    }
 }
