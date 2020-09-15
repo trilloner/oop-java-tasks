@@ -22,9 +22,12 @@
     <list default="true" id="3e2cbb59-0d14-4fe6-b445-0cd45f0c803e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../client/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/main/java/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/target/classes/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../client/target/classes/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +86,7 @@
       <workItem from="1600086834205" duration="3720000" />
       <workItem from="1600092750705" duration="723000" />
       <workItem from="1600120006203" duration="1631000" />
+      <workItem from="1600179799112" duration="3000000" />
     </task>
     <servers />
   </component>
@@ -106,21 +110,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1290" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600120418436" />
-    <state width="731" height="294" key="GridCell.Tab.0.bottom" timestamp="1600121637749">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="628" height="195" key="GridCell.Tab.0.bottom" timestamp="1600183023121">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="628" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600183023121" />
     <state width="731" height="294" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1600121637749" />
-    <state width="731" height="294" key="GridCell.Tab.0.center" timestamp="1600121637749">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="628" height="195" key="GridCell.Tab.0.center" timestamp="1600183023121">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="628" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600183023121" />
     <state width="731" height="294" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1600121637749" />
-    <state width="731" height="294" key="GridCell.Tab.0.left" timestamp="1600121637749">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="628" height="195" key="GridCell.Tab.0.left" timestamp="1600183023121">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="628" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600183023121" />
     <state width="731" height="294" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1600121637749" />
-    <state width="731" height="294" key="GridCell.Tab.0.right" timestamp="1600121637749">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="628" height="195" key="GridCell.Tab.0.right" timestamp="1600183023121">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="628" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600183023121" />
     <state width="731" height="294" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1600121637749" />
     <state x="1310" y="356" key="Maven.ArtifactSearchDialog" timestamp="1600093441642">
       <screen x="0" y="0" width="2560" height="1400" />

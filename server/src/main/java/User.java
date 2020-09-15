@@ -14,18 +14,8 @@ public class User {
     }
 
 
-    public String display(){
-        String result = "Hello Dear " + this.username+ "Your age is: "+ this.age;
-        return result;
-    }
-
-
     @Override
     public String toString() {
-        return "User{" +
-                "username='" + username + '\'' +
-                ", age=" + age +
-                ", gender=" + gender +
-                '}';
+        return "Dear " + this.username+ "! You were connected to our server. \n Your age: "+ this.age;
     }
 }
