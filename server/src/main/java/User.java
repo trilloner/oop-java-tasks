@@ -18,7 +18,14 @@ public class User {
         String result = "Hello Dear " + this.username+ "Your age is: "+ this.age;
         return result;
     }
-    public fromJSON(){
 
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "username='" + username + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                '}';
     }
 }
