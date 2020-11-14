@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flowers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="GreenHouse.xsd">
+    <another-flower id="1">
+        <name>Rose</name>
+        <soil>GROUND</soil>
+        <origin>Ukraine</origin>
+        <visual-parameters>
+            <stemColor>Pink</stemColor>
+            <leaveColor>Gray</leaveColor>
+            <size>10</size>
+        </visual-parameters>
+        <growing-tips>
+            <temperature>10.0</temperature>
+            <light>true</light>
+            <watering>100</watering>
+        </growing-tips>
+        <multiplying>CUTTINGS</multiplying>
+    </another-flower>
+
+    <flower id="2">
+        <name>Violet</name>
+        <soil>PODZOLIC</soil>
+        <origin>Brazil</origin>
+        <visual-parameters>
+            <stemColor>Green</stemColor>
+            <leaveColor>Purple</leaveColor>
+            <size>8</size>
+        </visual-parameters>
+        <growing-tips>
+            <temperature>12.0</temperature>
+            <light>true</light>
+            <watering>500</watering>
+        </growing-tips>
+        <multiplying>LEAVES</multiplying>
+    </flower>
+
+    <flower id="3">
+        <name>Tulip</name>
+        <soil>SODPODZOLIC</soil>
+        <origin>Australia</origin>
+        <visual-parameters>
+            <stemColor>Green</stemColor>
+            <leaveColor>Red</leaveColor>
+            <size>15</size>
+        </visual-parameters>
+        <growing-tips>
+            <temperature>17.0</temperature>
+            <light>false</light>
+            <watering>1000</watering>
+        </growing-tips>
+        <multiplying>LEAVES</multiplying>
+    </flower>
+
+</flowers>

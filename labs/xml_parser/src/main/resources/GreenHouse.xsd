@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+    <xs:simpleType name="soilRestriction">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="PODZOLIC"/>
+            <xs:enumeration value="GROUND"/>
+            <xs:enumeration value="SODPODZOLIC"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="multiplyingRestriction">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="LEAVES"/>
+            <xs:enumeration value="CUTTINGS"/>
+            <xs:enumeration value="SEED"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="lightRestriction">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="true"/>
+            <xs:enumeration value="false"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="temperatureRestriction">
+        <xs:restriction base="xs:float">
+            <xs:minInclusive value="0.0"/>
+            <xs:maxInclusive value="30.0"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="waterRestriction">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="100"/>
+            <xs:maxInclusive value="2000"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="sizeRestriction">
+        <xs:restriction base="xs:float">
+            <xs:minInclusive value="0.0"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="flowers">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="flower" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"/>
+
+                            <xs:element name="soil">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="soilRestriction"/>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="origin" type="xs:string"/>
+
+                            <xs:element name="visual-parameters">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="stemColor" type="xs:string"/>
+                                        <xs:element name="leaveColor" type="xs:string"/>
+
+                                        <xs:element name="size">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="sizeRestriction"/>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="growing-tips">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="temperature">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="temperatureRestriction"/>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+
+                                        <xs:element name="light">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="lightRestriction"/>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+
+                                        <xs:element name="watering">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="waterRestriction"/>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="multiplying">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="multiplyingRestriction"/>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
