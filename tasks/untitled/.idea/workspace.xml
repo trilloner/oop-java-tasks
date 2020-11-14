@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f70d65ba-6600-40b5-99ee-fdf24996f691" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../10 task/4 task/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10 task/4 task/src/main/java/Loader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10 task/4 task/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10 task/4 task/src/main/java/Print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10 task/4 task/src/main/java/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10 task/src/main/java/ExecutorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10 task/src/main/java/Executors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10 task/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10 task/src/main/java/TaskQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10 task/src/main/java/TaskThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../10 task/src/main/java/ThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/User.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1jg74hlnFsK6V1OFRIyt72xtiah" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path" value="node" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f70d65ba-6600-40b5-99ee-fdf24996f691" name="Default Changelist" comment="" />
+      <created>1604213691777</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604213691777</updated>
+      <workItem from="1604213695034" duration="22000" />
+    </task>
+    <servers />
+  </component>
+</project>

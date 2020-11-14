@@ -1,4 +1,5 @@
-import com.google.gson.Gson;
+
+
 public class User {
 
     private String username;
